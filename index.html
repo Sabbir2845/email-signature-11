@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/3616af1012.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        *{
+    margin: 0; padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    
+    background: #333;
+}
+.container{
+    min-height: 100vh;
+    display: flex;
+    width: 700px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.container .box{
+    background: #fff;
+    display: flex;
+    overflow: hidden;
+    border-radius: 10px;
+    align-items: center;
+}
+.container .box .content{
+   margin: auto;
+    padding: 3px;
+   width:250px;
+}
+/* .container .box .content::before{
+    content: '';
+    position: absolute;
+    background-color: #FAAC17;
+    height: 160px;
+    width: 120px;
+    top: 200px;
+    border-radius: 50%;
+   right: 680px;
+} */
+.container .box .content i{
+    padding-left: 30px;
+   color: #FAAC17;
+   padding-bottom: 20px;
+}
+.container .box .content a{
+    color: #333;  
+}
+.container .box .content a span{
+    color: #FAAC17;
+}
+.container .box .content .name{
+    padding-left: 50px;
+    font-size: 23px; 
+}
+.container .box .content .name span{
+    color: #FAAC17;
+}
+.container .box .image{
+    margin: 7px;
+    padding-left: 30px; 
+    width: 200px;  
+}
+.container .box .content .post{
+    padding-left: 50px;
+    font-size: 16px;
+}
+.container .box .content hr{
+    width: 110px;
+    margin-left: 50px;
+    margin-top: 4px;
+    border: 2px solid #FAAC17;
+    
+}
+.container .box .image img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 5px solid #FAAC17;
+    margin-left: 13px;
+}
+.container .box .image .icons li{
+    display: inline;
+}
+.container .box .image .icons li i{
+    color: #FAAC17;
+    font-size: 19px;
+    padding: 1px;
+}
+.container .box .image .icons i:hover{
+    color: black;
+
+}
+.container .box .share{
+    margin: 15px ;
+    width: 250px;
+}
+.container .box .share ul{
+    list-style-type: none;
+    color: #FAAC17;
+}
+.container .box .share ul li{
+    padding: 3px;
+}
+.container .box .share ul li a{
+    color: black;
+}
+.container .box .share ul li i:hover{
+    color: black;
+}
+/* .container .box .share::before{
+    content: '';
+    position: absolute;
+    background-color: #FAAC17;
+    height: 160px;
+    width: 120px;
+    top: 200px;
+    border-radius: 50%;
+   left: 680px;
+} */
+@media (max-width:650px){
+    .container{
+        
+        width: 340px;
+    }
+    .container .box{
+        width: 340px;
+        flex-flow: column;
+    }
+    .container .box .content{
+        margin: 10px;
+    }
+    .container .box .content .name{
+       margin-left: -21px;
+    }
+    .container .box .content,hr{
+       
+    }
+    .container .box .image{
+        margin-left: -20px;
+    }
+    .container .box .image .icons{
+        font-size: 30px;
+       
+    }
+    .container .box .share{
+        margin-left: 60px;
+    }
+
+}
+    </style>
+    <title>signature-11</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="content">
+                <a href="#"><i class="fa-solid fa-building"></i> Sabbir <span>Transport</span> LTD</a>
+                <h2 class="name">Sabbir <span>Hossain</span></h2>
+                <h4 class="post">Web Designer</h4>
+                <hr>
+            </div>
+            <div class="image">
+                <img src="sabbir.jpg" alt="#" height="100px">
+                <div class="icons">
+                    <ul>
+                        <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><i class="fa-brands fa-twitter"></i><a href="#"></a></li>
+                        <li><i class="fa-brands fa-instagram"></i><a href="#"></a></li>
+                        <li><i class="fa-brands fa-linkedin"></i><a href="#"></a></li>
+                        <li><i class="fa-brands fa-github"></i><a href="#"></a></li>
+                        <li><i class="fa-brands fa-youtube"></i><a href="#"></a></li>
+                    </ul>
+                </div>               
+            </div> 
+            <div class="share">
+                <ul>
+                    <li><i class="fa-solid fa-phone"></i><a href="#"> 01632732220</a></li>
+                    <li><i class="fa-solid fa-envelope"></i><a href="#">  sabbir92828@gmail.com</a></li>
+                    <li><i class="fa-solid fa-globe"></i><a href="#"> www.sabbir.com</a></li>
+                    <li><i class="fa-solid fa-location-dot"></i><a href="#"> Chattogram , Bangladesh</a></li>
+                </ul>
+           </div>   
+
+            
+
+        </div>
+
+    </div>
+    
+</body>
+</html>
